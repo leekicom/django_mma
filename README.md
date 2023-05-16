@@ -33,3 +33,5 @@ python manage.py runserver
 # 브라우져로 접속
 http://127.0.0.1:8000/main/
 ```
+uwsgi서버실행
+ uwsgi --http-socket :8000 --chdir /home/ubuntu/django_mma --wsgi-file ./Jinstagram/wsgi.py
