@@ -16,10 +16,11 @@ python 3.7 이상 버전 설치 후
 ```
 # 가상환경 생성 
 python -m venv venv
+맥 python3 -m venv ./myenv
 
 # 가상환경 실행
 source ./venv/Scripts/activate
-
+맥 source myenv/bin/activate
 # 필요 package 설치
 pip install -r requirements.txt
 
